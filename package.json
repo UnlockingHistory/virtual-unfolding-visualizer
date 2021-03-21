@@ -1,8 +1,8 @@
 {
-  "name": "locked-letters-visualizer",
+  "name": "virtual-unfolding-visualizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://unlockinghistory.github.io/locked-letters-visualizer/",
+  "homepage": "https://unlockinghistory.github.io/virtual-unfolding-visualizer",
   "dependencies": {
     "@blueprintjs/core": "^3.28.0",
     "@types/classnames": "^2.2.10",
