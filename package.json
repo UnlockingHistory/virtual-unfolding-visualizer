@@ -15,7 +15,7 @@
     "react-scripts": "3.4.1",
     "react-three-fiber": "^4.2.5",
     "recoil": "git+https://git@github.com/amandaghassaei/Recoil.git",
-    "three": "^0.116.1",
+    "three": "^0.125.0",
     "typescript": "^3.7.5"
   },
   "scripts": {
