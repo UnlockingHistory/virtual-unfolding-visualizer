@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4395a0d8b9c18a26bbe4a2ac84ad820c",
+    "revision": "73b325e864b6ec2fd4a5068e7fb0cd7e",
     "url": "/locked-letters-visualizer/index.html"
   },
   {
-    "revision": "8822b9a9854008a1f76f",
+    "revision": "c0e341e0ed1a7e53d7cf",
     "url": "/locked-letters-visualizer/static/css/2.750ab16b.chunk.css"
   },
   {
-    "revision": "5e2bfa48300e61b3ffed",
+    "revision": "55bc356d5ed4c556de03",
     "url": "/locked-letters-visualizer/static/css/main.71757280.chunk.css"
   },
   {
-    "revision": "8822b9a9854008a1f76f",
-    "url": "/locked-letters-visualizer/static/js/2.cd6a1f10.chunk.js"
+    "revision": "c0e341e0ed1a7e53d7cf",
+    "url": "/locked-letters-visualizer/static/js/2.b62c2d42.chunk.js"
   },
   {
     "revision": "24f0fa4d1f3c84eed06b61317de39ce4",
-    "url": "/locked-letters-visualizer/static/js/2.cd6a1f10.chunk.js.LICENSE.txt"
+    "url": "/locked-letters-visualizer/static/js/2.b62c2d42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e2bfa48300e61b3ffed",
-    "url": "/locked-letters-visualizer/static/js/main.4df9a4c4.chunk.js"
+    "revision": "55bc356d5ed4c556de03",
+    "url": "/locked-letters-visualizer/static/js/main.1c11251a.chunk.js"
   },
   {
     "revision": "9ede4427ff19ef19dfdb",

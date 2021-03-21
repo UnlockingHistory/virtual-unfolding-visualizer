@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/locked-letters-visualizer/precache-manifest.a874f346f78986e4e61fee762059e6cd.js"
+  "/locked-letters-visualizer/precache-manifest.c89390fd6c9b5230ac4ba7dae94d21f8.js"
 );
 
 self.addEventListener('message', (event) => {
