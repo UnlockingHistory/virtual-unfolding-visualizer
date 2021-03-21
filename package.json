@@ -2,6 +2,7 @@
   "name": "locked-letters-visualizer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://unlockinghistory.github.io/locked-letters-visualizer/",
   "dependencies": {
     "@blueprintjs/core": "^3.28.0",
     "@types/classnames": "^2.2.10",
@@ -21,6 +22,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo 'no tests available'",
     "eject": "react-scripts eject"
   },
@@ -44,6 +47,7 @@
     "@types/randomcolor": "^0.5.5",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "gh-pages": "^3.1.0",
     "react-app-rewired": "^2.1.6",
     "worker-loader": "^2.0.0"
   }
