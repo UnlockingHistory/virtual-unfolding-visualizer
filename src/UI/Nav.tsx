@@ -20,7 +20,7 @@ export function Nav() {
 	return (
 		<Navbar className={`Nav`}>
 			<NavbarGroup align={Alignment.LEFT}>
-				<NavbarHeading>Locked Letters</NavbarHeading>
+				<NavbarHeading>Unlocking History</NavbarHeading>
 				<NavbarDivider/>
 				<Tabs
 					animate={true}
