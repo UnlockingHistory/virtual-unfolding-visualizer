@@ -7,6 +7,7 @@
     "@blueprintjs/core": "^3.28.0",
     "@types/classnames": "^2.2.10",
     "@types/recoil": "0.0.1",
+    "@types/three": "^0.126.1",
     "classnames": "^2.2.6",
     "randomcolor": "^0.6.2",
     "react": "^16.13.1",
@@ -16,7 +17,7 @@
     "react-scripts": "3.4.1",
     "react-three-fiber": "^4.2.5",
     "recoil": "git+https://git@github.com/amandaghassaei/Recoil.git",
-    "three": "^0.116.1",
+    "three": "^0.126.1",
     "typescript": "^3.7.5"
   },
   "scripts": {
