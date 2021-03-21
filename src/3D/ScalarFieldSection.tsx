@@ -76,6 +76,7 @@ function ScalarFieldSectionMesh() {
 
 	return (
 		<mesh
+			renderOrder={-1}
 			position={[sectionCenter[0], sectionCenter[0], selectionCenter[2] + 0.5]}
 			scale={sectionSize}>
 			<bufferGeometry attach="geometry" attributes-position={position} attributes-uv={uv} index={index} />

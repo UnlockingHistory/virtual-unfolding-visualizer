@@ -93,11 +93,25 @@ export function FileHandler() {
 		input.click();
 	}
 
+	function openDirectorySelector() {
+		const input = document.getElementById("directory-input");
+		if (!input) {
+			throw new Error('Missing directory input element.');
+		}
+		input.click();
+	}
+
 	// Bind change listener to file input - this is already in index.html.
-	if (document) (document.getElementById('file-input') as HTMLInputElement).onchange = handleFileUpload;
+	if (document) {
+		(document.getElementById('file-input') as HTMLInputElement).onchange = handleFileUpload;
+		(document.getElementById('directory-input') as HTMLInputElement).onchange = handleFileUpload;
+	}
 
 	return (
-		<Button className="bp3-minimal" icon="upload" text="Upload Files" onClick={openFileSelector} />
+		<>
+			<Button className="bp3-minimal" icon="upload" text="Upload Files" onClick={openFileSelector} />
+			<Button className="bp3-minimal" icon="upload" text="Upload Directory" onClick={openDirectorySelector} />
+		</>
 	);
 }
 
