@@ -6,7 +6,7 @@ This app is still in progress and currently only supports viewing some of the fi
 
 ## Use
 
-
+To use, select "Upload Files" and select folder containing Virtual Unfolding results.  Once loaded, the files will appear in the left menu.  You can select one scalar field and multiple vector fields to view in the 3D viewer.  Toggle the dropdown on each file to configure the visualization.
 
 ## Development
 
