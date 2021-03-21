@@ -1,0 +1,8 @@
+.Nav {
+	flex: none;
+	z-index: 1;
+}
+
+#file-input {
+	display: none;
+}

@@ -1,0 +1,33 @@
+.FileMenu {
+	width: 400px;
+	flex: none;
+	overflow-y: auto;
+	z-index: 1;
+	padding: 10px;
+	margin: 0;
+}
+
+.FileMenu__Title {
+	color: black;
+	font-weight: 800;
+}
+
+.FileName__CogIcon {
+	margin-right: 10px;
+	color: grey!important;
+}
+
+.FileMenu__FileOptions {
+	background: #eee;
+    padding: 10px 20px;
+	font-size: 12px;
+    line-height: 20px;
+}
+
+.FileMenu__FileName>div {
+	flex: 1;
+}
+
+.FileMenu__FileName.expanded {
+	background: #eee;
+}

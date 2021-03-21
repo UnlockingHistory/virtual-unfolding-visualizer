@@ -1,0 +1,50 @@
+{
+  "name": "locked-letters-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^3.28.0",
+    "@types/classnames": "^2.2.10",
+    "@types/recoil": "0.0.1",
+    "classnames": "^2.2.6",
+    "randomcolor": "^0.6.2",
+    "react": "^16.13.1",
+    "react-autobind": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-middle-ellipsis": "^1.1.0",
+    "react-scripts": "3.4.1",
+    "react-three-fiber": "^4.2.5",
+    "recoil": "git+https://git@github.com/amandaghassaei/Recoil.git",
+    "three": "^0.116.1",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "echo 'no tests available'",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/randomcolor": "^0.5.5",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "react-app-rewired": "^2.1.6",
+    "worker-loader": "^2.0.0"
+  }
+}

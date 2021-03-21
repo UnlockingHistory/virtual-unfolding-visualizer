@@ -1,0 +1,7 @@
+.ControlPanel {
+	position: absolute;
+	right: 30px;
+	top: 100px;
+	z-index: 1;
+	padding: 10px;
+}
