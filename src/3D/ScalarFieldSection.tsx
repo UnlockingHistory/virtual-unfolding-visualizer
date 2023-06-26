@@ -48,6 +48,7 @@ const index = new BufferAttribute(new Uint32Array([
 
 function ScalarFieldSectionMesh() {
 	const selectionCenter = useRecoilValue(selectionCenterState);
+	console.log(selectionCenter);
 	const sectionSize = useRecoilValue(sectionSizeState);
 	const sectionCenter = useRecoilValue(sectionCenterState);
 	const sectionPosition = useRecoilValue(sectionPositionState);
@@ -77,7 +78,7 @@ function ScalarFieldSectionMesh() {
 	return (
 		<mesh
 			renderOrder={-1}
-			position={[sectionCenter[0], sectionCenter[0], selectionCenter[2] + 0.5]}
+			position={[sectionCenter[0], sectionCenter[1], selectionCenter[2] + 0.5]}
 			scale={sectionSize}>
 			<bufferGeometry attach="geometry" attributes-position={position} attributes-uv={uv} index={index} />
 			<meshBasicMaterial depthWrite={false} attach="material" >

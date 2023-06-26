@@ -16,7 +16,7 @@ export const View3D = () => {
 			<Canvas
 				colorManagement
 				orthographic
-				camera={{ zoom: 5, up: [0, 0, 1], near: 0.0001, far: 1000, position: [100, 100, 100] }}
+				camera={{ zoom: 5, up: [0, 0, 1], near: 0.0001, far: 10000, position: [100, 100, 100] }}
 				pixelRatio={window.devicePixelRatio}
 				invalidateFrameloop>
 				<AppContext.Provider value={value}>
